@@ -11,8 +11,7 @@ Deployed Website ->
 Used the following site for verification.
 -> https://validator.w3.org/nu/
 
-![code refactor demo](./Assets/timeScreenShot.png)
-![code refactor demo](./Assets/notesInTextBoxAndButtons.png)
+![code refactor demo](./Assets/liveShot)
 
 ## Your Task
 
