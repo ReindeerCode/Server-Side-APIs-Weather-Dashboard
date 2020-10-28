@@ -1,17 +1,13 @@
 # 06 Server-Side APIs: Weather Dashboard
 
-See homework description below. I collaborated with **\*\*\*\*** **\*\*\*\*** on this assignment.
+See homework description below.
 
--> Note: TBD
-
--> Note: TBD
-
-Deployed Website ->
+Deployed Website -> https://reindeercode.github.io/Server-Side-APIs-Weather-Dashboard/
 
 Used the following site for verification.
 -> https://validator.w3.org/nu/
 
-![code refactor demo](./Assets/liveShot)
+![code refactor demo](./Assets/liveShot.png)
 
 ## Your Task
 
