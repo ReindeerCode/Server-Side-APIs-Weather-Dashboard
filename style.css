@@ -1,11 +1,21 @@
 .header {
   height: 150px;
-  background-color: gray;
+
+  background-color: rgba(14, 22, 133, 0.527);
   text-align: center;
   color: white;
   font-size: 50px;
   line-height: 140px;
   margin-bottom: 30px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-size: stretch;
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .col-lg-8 {
