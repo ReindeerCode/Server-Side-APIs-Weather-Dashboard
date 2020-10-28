@@ -1,91 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/png" href="./Assets/mr-logo-icon.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather</title>
+    <!--Compiled and minified jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="./Assets/mr-logo-icon.png" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/reset.css" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
-
-
   <body>
-    <header class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Weather Dashboard</h1>
-      </div>
-    </header>
-    <div class="row center">
-        <aside class="col-3">
-          <div class="textarea">Search For A City:</div>
-          <textarea " id="city-search" class="textarea" placeholder="Type City Here"></textarea>
-          <button type="button"  id="find-city"  class="searchBtn searchBtn-i">Search</button>
-        </aside>
-      <!-- Current Data - Retrieved data will be dumped here -->
-        <main class="col-8">
-          <div>
-            <div class="city"></div>
-            <div class="temp todaysWeather" "></div>
-            <div class="tempF todaysWeather"></div>
-            <div class="humidity todaysWeather"></div>
-            <div class="wind todaysWeather"></div>
-            <div class="UV todaysWeather"></div>
-          </div>
-          <!-- Forecast Data - Retrieved data will be dumped here -->
-          <h1><strong>5-Day Forecast</strong></h1>
-          <div class="row">
-            <div class="card" style="width: 10rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-            <div class="card" style="width: 10rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-        </main>
+    <div class="header">
+      Weather Dashboard
     </div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 border-right border-silver" id="cityCol">
+          <br />
+          <h3>Search for a city :</h3>
+          <form class="form-inline mt-2 mt-md-0">
+            <input
+              class="form-control float-left mr-ms-2"
+              type="text"
+              placeholder="Search for a city"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-ms-0" type="submit">
+              Search
+            </button>
+          </form>
+          <div id="cityViewed" class="cityViewed"></div>
+        </div>
+        <div class="col-lg-9 pb-5">
+          <div class="row" id="todayWeather">
+            <div class="col-lg-12">
+              <h2 class="current-city"></h2>
+              <p id="temp"></p>
+              <p id="hum"></p>
+              <p id="windy"></p>
+              <p id="uv"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h2>5-Day Forecast</h2>
+            </div>
+          </div>
+          <div class="row justify-content-between" id="forecast" >    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script defer src="./JS/script.js"></script>
+    <script src="JS/script.js"></script>
   </body>
 </html>

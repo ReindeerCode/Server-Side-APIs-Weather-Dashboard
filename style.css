@@ -1,0 +1,59 @@
+.header {
+  height: 150px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  line-height: 140px;
+  margin-bottom: 30px;
+}
+
+.col-lg-8 {
+  background-color: white;
+}
+.container {
+  border: 2px solid lightgrey;
+}
+.row {
+  background-color: #f8f9fa;
+}
+.form-inline {
+  padding-top: 5px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+#todayWeather {
+  margin-top: 20px;
+  margin-left: 1px;
+  line-break: normal;
+
+  /* border: 2px solid lightgrey; */
+}
+#cityViewed {
+  text-align: center;
+  justify-content: center;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+p {
+  font-weight: 500;
+  text-align: center;
+}
+#temp,
+#hum,
+#windy,
+#uv {
+  text-align: left;
+}
+#forecast {
+  margin-top: 20px;
+  /* border: 2px solid lightgrey; */
+}
+
+.btn {
+  margin-left: auto;
+}
