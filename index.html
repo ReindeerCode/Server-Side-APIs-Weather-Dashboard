@@ -18,15 +18,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/reset.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
-    <title>Work Day Scheduler</title>
+    <title>Weather Dashboard</title>
   </head>
 
+
+
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Weather</h1>
-      <p class="lead">TBD Text</p>
-      <p id="currentDay" class="lead"></p>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Weather Dashboard</h1>
+      </div>
     </header>
+    <div class="row center">
+        <aside class="col-3">
+          <div class="textarea">Search For A City:</div>
+          <textarea " id="city-search" class="textarea" placeholder="Type City Here"></textarea>
+          <button type="button"  id="find-city"  class="searchBtn searchBtn-i">Search</button>
+        </aside>
+      <!-- Current Data - Retrieved data will be dumped here -->
+        <main class="col-8">
+          <div>
+            <div class="city"></div>
+            <div class="temp todaysWeather" "></div>
+            <div class="tempF todaysWeather"></div>
+            <div class="humidity todaysWeather"></div>
+            <div class="wind todaysWeather"></div>
+            <div class="UV todaysWeather"></div>
+          </div>
+          <!-- Forecast Data - Retrieved data will be dumped here -->
+          <h1><strong>5-Day Forecast</strong></h1>
+          <div class="row">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </main>
+    </div>
 
 
 
