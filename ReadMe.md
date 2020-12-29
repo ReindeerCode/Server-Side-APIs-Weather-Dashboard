@@ -1,18 +1,20 @@
 # Project: Server-Side APIs: Weather Dashboard
 
-  Deployable Link - > 
+  Deployable Link - > https://reindeercode.github.io/Server-Side-APIs-Weather-Dashboard/
 
   Video Walk through Link -> 
 
 ## Table of Contents: 
-- [Name](#name)
-- [License](#license)
-- [Description](#description)
-- [Installation Instructions](#installationInstructions)
-- [Test](#test)
-- [GitHub](#gitHub)
-- [Email](#email)
-- [Contributors](#contributors)
+- [Project: Server-Side APIs: Weather Dashboard](#project-server-side-apis-weather-dashboard)
+  - [Table of Contents:](#table-of-contents)
+  - [License:](#license)
+  - [Description:](#description)
+  - [Installation Instructions:](#installation-instructions)
+  - [Test Command:](#test-command)
+  - [Github:](#github)
+  - [My Email Address:](#my-email-address)
+  - [Other Contributors:](#other-contributors)
+  - [Images:](#images)
 
 ## License:
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -37,8 +39,6 @@ If you have any questions please feel free to email me at ReindeerCode@gmail.com
 None at this time
 
 ## Images:
-![Project Screenshot](./imagePathHere.png)
+![Project Screenshot](./Assets/liveShot.png)
 
-![Project Screenshot](./imagePathHere.png)
 
-![Project Screenshot](./imagePathHere.png)
