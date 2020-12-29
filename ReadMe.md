@@ -2,7 +2,6 @@
 
   Deployable Link - > https://reindeercode.github.io/Server-Side-APIs-Weather-Dashboard/
 
-  Video Walk through Link -> 
 
 ## Table of Contents: 
 - [Project: Server-Side APIs: Weather Dashboard](#project-server-side-apis-weather-dashboard)
