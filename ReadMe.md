@@ -26,7 +26,7 @@ Developers are often tasked with retrieving data from another application's API 
 https://openweathermap.org/api
 
 ## Test Command: 
-To test type Launch in browser. Enter City a click search. into the terminal
+To launch click the deployed site link in top of read me. Enter City a click search. 
 
 ## Github: 
 Check out more projects on my Github at https://github.com/ReindeerCode
